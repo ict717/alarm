@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  .alarm-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .alarm-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  #alarm-time {
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #set-alarm {
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #set-alarm:hover {
+    background-color: #3e8e41;
+  }
+  
+  .set-alarm-feedback {
+    font-size: 14px;
+    color: #666;
+    margin-left: 10px;
+    display: none;
+  }
+  
+  .set-alarm-feedback.show {
+    display: block;
+  }
+  
+  .alarm-message {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .alarm-message.show {
+    display: block;
+  }
